@@ -14,14 +14,6 @@
     color: white;
     display: flex;
     margin-left: 25px;
-   
-}
-.menu-1 {
-    color: white;
-    font-size: 10px;
-    display: flex;
-    margin-left: 20px;
-    
 }
 
 .header {
@@ -136,15 +128,25 @@ input.menu {
 
 }
 label.menu{
-font-size: 20px;
-margin-right: 20px;
+    font-size: 20px;
+    margin-right: 20px;
 }
 
 @media (480px < width < 1001px) {
-    ul.menu li a{
-        color: green;
+    label.menu {
+       font-size: 0;
     }
-}
+    ul.menu {
+        display: flex;
+        font-size: 12px;
+        padding-right: 20px;
+       
+    }
 
-@media all and (width > 1000px) {
+    ul.menu li a{
+        color: white;
+        padding-left: 25px;
+    }
+
+@media  (width > 1000px) {
 }
