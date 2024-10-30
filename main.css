@@ -73,6 +73,7 @@ button {
     display: flex;
     padding-top: 50px;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .logos {
@@ -93,30 +94,39 @@ li {
     padding: 20px;
 }
 
+.display-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 .links {
-    padding-top: 60px;
     padding-right: 20px;
     padding-bottom: 25px;
     margin-right: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
 }
+/*
+.links li {
+    padding-top: 0;
+}
+*/
 
 .legal {
     padding-right: 25px;
 }
 .img {
-    float: right;
+    text-align: right;
 }
 
 .coin {
     width: 30px;
     padding-left: 20px;
 }
+
 .copyright {
-   float: right;
- 
-}
-.links {
-    display: flex;
+    padding-top: 15px;
 }
 
 ul.menu {
@@ -194,4 +204,9 @@ label.menu{
     }
 }
 @media  (width > 1000px) {
+
+
+
+
+
 }
