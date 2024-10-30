@@ -54,7 +54,7 @@ button {
     margin-top: 15px;
     margin-bottom: 20px;
     height: 30px;
-    width: 95%;
+    width: 420px;
     background-color: rgb(29, 173, 77);
     color: white;
     border-radius: 18px; 
@@ -88,7 +88,7 @@ li {
 .footer {
     font-size: 10px;
     background-color: black;
-    height: 90%;
+    height: 125px;
     color: white;
     padding: 20px;
 }
@@ -114,15 +114,13 @@ li {
 .copyright {
    float: right;
  
-    
 }
-ol.links {
+.links {
     display: flex;
 }
 
 ul.menu {
     display: none;
-
   }
   
 input:checked  ~ ul.menu {
@@ -151,12 +149,14 @@ label.menu{
     }
     label.menu {
     display: none;
-}
     
+}
+  
     ul.menu {
         display: flex;
         font-size: 12px;
         padding-right: 20px;
+       
        
     }
 
@@ -164,6 +164,34 @@ label.menu{
         color: white;
         padding-right: 25px;
     }
+    button {
+        height: 30px;
+        width: 150px;
+    }
+    
+    .premium article {
+        display: grid;
+        grid-template-columns: auto auto;
+    }  
+    .display-footer {
+        display: flex;
 
+    }
+    .copyright {
+        margin-top: -12px;
+    }
+    .information {
+        padding-top: 74px;
+
+    }
+    .footer {
+        margin-bottom: 20px;
+        padding-bottom: 90px;
+        height: 10px;
+    }
+    .links {
+        padding-bottom: 0px;
+    }
+}
 @media  (width > 1000px) {
 }
